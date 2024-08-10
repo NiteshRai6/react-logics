@@ -8,6 +8,7 @@ const itens = [
 ]
 
 export default function EventHandling() {
+
     const [data, setData] = useState();
     const [item, setItem] = useState([]);
 
@@ -22,7 +23,6 @@ export default function EventHandling() {
 
     console.log(data);
     console.log(item);
-
 
     return (
 
