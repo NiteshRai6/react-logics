@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Child({ increment }) {
+export default React.memo(function Child({ increment }) {
 
     console.log('Child Rendered.');
 
@@ -17,4 +17,4 @@ export default function Child({ increment }) {
             </button>
         </div>
     )
-}
+});

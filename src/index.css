@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+table tr {
+    @apply border-b
+}
+
+table tr th,
+td {
+    @apply p-2 text-center;
+}
